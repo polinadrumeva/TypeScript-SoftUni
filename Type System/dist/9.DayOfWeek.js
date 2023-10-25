@@ -28,4 +28,4 @@ function printDayOfWeek(day) {
     }
 }
 ;
-printDayOfWeek('Invalid');
+printDayOfWeek('Monday');

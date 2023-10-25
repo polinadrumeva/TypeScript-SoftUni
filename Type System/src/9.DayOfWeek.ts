@@ -13,4 +13,4 @@ function printDayOfWeek (day: string) : void {
     }
 };
 
-printDayOfWeek('Invalid');
+printDayOfWeek('Monday');
