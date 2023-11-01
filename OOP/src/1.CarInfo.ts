@@ -10,15 +10,15 @@ class Car {
       this.horsepower = horsepower;
     }
 
-    getInfo() : void {
-        console.log(`The car is: ${this.brand} ${this.model} - ${this.horsepower} HP.`);
+    getInfo() {
+       return `The car is: ${this.brand} ${this.model} - ${this.horsepower} HP.`;
     }
 }
 
 function getCarInfo(input:string) : void {
     let arr = input.split(" ");
     let car = new Car(arr[0], arr[1], Number(arr[2]));
-    car.getInfo();
+    console.log(car.getInfo());
 }
 
 getCarInfo("Chevrolet Impala 390");
